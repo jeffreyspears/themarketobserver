@@ -13,7 +13,7 @@ body {
   }
   .main-container {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,12 +25,12 @@ body {
     padding: 0px 100px;
     margin-bottom: 100px;
   }
-  .main-content {
+  .photoandquote {
     display: flex;
     justify-content: space-between;
     max-width: 800px;
   }
-  .main-content p {
+  .photoandquote p {
     font-size: 25px;
     margin-left: 30px;
   }
