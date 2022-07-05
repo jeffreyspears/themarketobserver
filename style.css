@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -16,19 +17,41 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position:relative; left: 0px;
+    border-bottom: 3pt solid green;
   }
   .header {
     width: auto;
-    border-bottom: 3pt solid green;
     padding: 0px 100px;
-    margin-bottom: 100px;
+  }
+  .about a {
+      text-decoration: none;
+  }
+  .about {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    position: absolute; right: 100px; bottom: 10px;
+  }
+  .blog {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    position: absolute; right: 190px; bottom: 10px;
   }
   .photoandquote {
     display: flex;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 1000px;
+    padding-top: 40px;
+    padding-left: 40px;
   }
   .photoandquote p {
     font-size: 25px;
